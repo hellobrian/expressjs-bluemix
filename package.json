@@ -12,5 +12,8 @@
     "IBM"
   ],
   "author": "Brian Han",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
 }
