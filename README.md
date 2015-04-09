@@ -1,6 +1,20 @@
 # Getting Started with Express.js on IBM Bluemix
 This is a tutorial and boilerplate for creating websites and web apps with Express.js on IBM Bluemix
 
+## Table of Contents
+
+- [Pre-requisites](#pre-requisites)
+  - [Install Node.js](#install-nodejs)
+  - [Install CF-CLI](#install-cf-cli)
+- [Setting up your project](#setting-up-your-project)
+  1. [Create Package.json](#1-create-packagejson)
+  2. [Install Express.js](#2-install-expressjs)
+  3. [Add node_modules to .gitignore](#3-add-node_modules-to-gitignore)
+- [Make a website with HTML]
+- [Make a website with Dustjs Templates]
+- [Set up Gulp.js]
+
+
 ## Pre-requisites 
 You need node.js and CF-CLI (cloudfoundry commandline tool). 
 You should also be using Git and GitHub - p
