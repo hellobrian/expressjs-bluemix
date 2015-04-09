@@ -23,7 +23,7 @@ $ brew install cloudfoundry-cli
 
 ## Setting up your project 
 
-### 1. npm init
+### 1. Create Package.json
 
 In your terminal, create a directory for your app and `cd` into it. 
 For now, we're going to call it expressjs-bluemix, but pick whatever name you want. 
@@ -80,3 +80,34 @@ Now's a good time for a commit:
 Set up project, create package.json with npm init
 ```
 [see commit](https://github.com/thisisbrianhan/expressjs-bluemix/commit/ec8155061833717f0278ee3e7e14f18fd4ed76b1)
+
+### 2. Install Express.js
+
+Install express: 
+
+```
+$ npm install express --save
+```
+
+`npm install` will install **express** and its dependencies inside a folder called `node_modules` in your app directory. 
+
+The `--save` flag writes express into the dependencies section of your `package.json`.
+
+```git
+Install express.js
+```
+
+[see commit](https://github.com/thisisbrianhan/expressjs-bluemix/commit/57079c1a01b4e9a529d7bcda95cf63f6de914fe1)
+
+### 3. Add node_modules to .gitignore
+
+When we deploy to Bluemix and when we check in our code to GitHub, we want to ignore the `node_module` folder because it's big. 
+
+Specifically for deploying, Bluemix will use the dependencies listed in package.json to install express and other dependencies when it gets deployed to production. 
+
+```git 
+Add node_modules to .gitignore
+```
+
+[see commit](https://github.com/thisisbrianhan/expressjs-bluemix/commit/57079c1a01b4e9a529d7bcda95cf63f6de914fe1)
+
