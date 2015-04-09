@@ -23,7 +23,7 @@ $ brew install cloudfoundry-cli
 
 ## Setting up your project 
 
-### npm init
+### 1. npm init
 
 In your terminal, create a directory for your app and `cd` into it. 
 For now, we're going to call it expressjs-bluemix, but pick whatever name you want. 
@@ -51,6 +51,32 @@ You'll have a package.json file that looks like this:
   "license": "ISC"
 }
 ```
-Open up your project in your text editor. 
-When you [see my first commit](https://github.com/thisisbrianhan/expressjs-bluemix/commit/ec8155061833717f0278ee3e7e14f18fd4ed76b1), y
-you'll see that I've edited it slightly.
+
+I've slightly edited my package.json with some info about my app. 
+Open up your project in your text editor, and feel free to make changes to the package.json: 
+
+```json
+{
+  "name": "expressjs-boilerplate",
+  "version": "1.0.0",
+  "description": "this is an expressjs boilerplate to use for getting started with website or web app prototypes to deploy on IBM Bluemix",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "expressjs",
+    "Bluemix",
+    "IBM"
+  ],
+  "author": "Brian Han",
+  "license": "MIT"
+}
+```
+
+Now's a good time for a commit: 
+
+```git
+Set up project, create package.json with npm init
+```
+[see commit](https://github.com/thisisbrianhan/expressjs-bluemix/commit/ec8155061833717f0278ee3e7e14f18fd4ed76b1)
