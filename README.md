@@ -92,9 +92,8 @@ Open up your project in your text editor, and feel free to make changes to the p
 
 Now's a good time for a commit: 
 
-```git
-Set up project, create package.json with npm init
-```
+**git commit**: Set up project, create package.json with npm init
+
 [see commit](https://github.com/thisisbrianhan/expressjs-bluemix/commit/ec8155061833717f0278ee3e7e14f18fd4ed76b1)
 
 ### 2. Install Express.js
@@ -109,9 +108,7 @@ $ npm install express --save
 
 The `--save` flag writes express into the dependencies section of your `package.json`.
 
-```git
-Install express.js
-```
+**git commit**: Install express.js
 
 [see commit](https://github.com/thisisbrianhan/expressjs-bluemix/commit/57079c1a01b4e9a529d7bcda95cf63f6de914fe1)
 
@@ -121,9 +118,7 @@ When we deploy to Bluemix and when we check in our code to GitHub, we want to ig
 
 Specifically for deploying, Bluemix will use the dependencies listed in package.json to install express and other dependencies when it gets deployed to production. 
 
-```git 
-Add node_modules to .gitignore
-```
+**git commit**: Add node_modules to .gitignore
 
 [see commit](https://github.com/thisisbrianhan/expressjs-bluemix/commit/57079c1a01b4e9a529d7bcda95cf63f6de914fe1)
 
