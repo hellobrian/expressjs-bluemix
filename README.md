@@ -11,7 +11,9 @@ This is a tutorial and boilerplate for creating websites and web apps with Expre
   2. [Install Express.js](#2-install-expressjs)
   3. [Add node_modules to .gitignore](#3-add-node_modules-to-gitignore)
 - [Make a website with HTML]
+  - [Manifest.yml]
 - [Make a website with Dustjs Templates]
+- [Using Routes]
 - [Set up Gulp.js]
 
 
