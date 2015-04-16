@@ -2,8 +2,9 @@
 This is a tutorial and boilerplate for creating websites and web apps with Express.js on IBM Bluemix
 
 ## Pre-requisites 
-You need node.js and CF-CLI (cloudfoundry commandline tool). 
-You should also be using Git and GitHub - p
+- node.js 
+- CF-CLI (cloudfoundry commandline tool). 
+- GitHub
 
 ### Install Node.js
 For windows users, install node.js here. 
